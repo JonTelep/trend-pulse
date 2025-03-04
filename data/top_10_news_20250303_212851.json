@@ -1,0 +1,84 @@
+{
+  "results": [
+    {
+      "rank": 1,
+      "title": "Historic Peace Agreement Signed Between Israel and Saudi Arabia",
+      "summary": "In a groundbreaking move, Israel and Saudi Arabia have signed a historic peace agreement, marking a significant shift in Middle Eastern geopolitics.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/israel-saudi-arabia-sign-historic-peace-agreement-2025-03-02/",
+      "timestamp": "2025-03-02T08:30:00Z"
+    },
+    {
+      "rank": 2,
+      "title": "Global Stock Markets Surge Following Positive Economic Data",
+      "summary": "Stock markets around the world experienced significant gains after the release of unexpectedly strong economic indicators from major economies.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2025-03-02/global-stock-markets-surge-after-positive-economic-data",
+      "timestamp": "2025-03-02T10:15:00Z"
+    },
+    {
+      "rank": 3,
+      "title": "Severe Earthquake Strikes Indonesia, Causing Widespread Damage",
+      "summary": "A 7.2 magnitude earthquake hit Indonesia, leading to significant damage and loss of life, with rescue operations underway.",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/world-asia-68473829",
+      "timestamp": "2025-03-02T03:45:00Z"
+    },
+    {
+      "rank": 4,
+      "title": "New AI Breakthrough Announced by Google",
+      "summary": "Google unveiled a new AI model capable of advanced natural language understanding, setting a new benchmark in the field.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/03/02/google-announces-new-ai-breakthrough/",
+      "timestamp": "2025-03-02T09:00:00Z"
+    },
+    {
+      "rank": 5,
+      "title": "U.S. President Announces New Climate Action Plan",
+      "summary": "The U.S. President has introduced a comprehensive plan to combat climate change, including new regulations and incentives for green technology.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2025/03/02/us/politics/climate-action-plan.html",
+      "timestamp": "2025-03-02T14:00:00Z"
+    },
+    {
+      "rank": 6,
+      "title": "Massive Data Breach at Major Financial Institution",
+      "summary": "A major financial institution reported a data breach affecting millions of customers, prompting investigations and security concerns.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2025/03/02/business/financial-institution-data-breach/index.html",
+      "timestamp": "2025-03-02T12:30:00Z"
+    },
+    {
+      "rank": 7,
+      "title": "European Union Reaches Agreement on Migration Policy",
+      "summary": "The European Union has finalized a new migration policy aimed at addressing the ongoing refugee crisis and improving border management.",
+      "source": "Euractiv",
+      "url": "https://www.euractiv.com/section/justice-home-affairs/news/eu-reaches-agreement-on-migration-policy/",
+      "timestamp": "2025-03-02T11:45:00Z"
+    },
+    {
+      "rank": 8,
+      "title": "SpaceX Successfully Launches New Satellite Constellation",
+      "summary": "SpaceX launched a new series of satellites intended to expand global internet coverage, marking another milestone in space technology.",
+      "source": "SpaceNews",
+      "url": "https://spacenews.com/spacex-launches-new-satellite-constellation/",
+      "timestamp": "2025-03-02T07:00:00Z"
+    },
+    {
+      "rank": 9,
+      "title": "Record-breaking Heatwave Hits Australia",
+      "summary": "Australia is experiencing an unprecedented heatwave, with temperatures soaring above historical records and prompting health warnings.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2025/mar/02/record-breaking-heatwave-hits-australia",
+      "timestamp": "2025-03-02T05:30:00Z"
+    },
+    {
+      "rank": 10,
+      "title": "New Archaeological Discovery in Egypt",
+      "summary": "Archaeologists have uncovered a new tomb in Egypt, believed to be from the time of the Pharaohs, containing well-preserved artifacts.",
+      "source": "National Geographic",
+      "url": "https://www.nationalgeographic.com/history/article/new-archaeological-discovery-in-egypt",
+      "timestamp": "2025-03-02T13:15:00Z"
+    }
+  ]
+}

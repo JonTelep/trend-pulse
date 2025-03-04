@@ -24,20 +24,20 @@ def get_xai_news():
     """ Get XAI news """
 
     payload = {
-        "model": "grok-2-1212",
-        "messages": [
-            {
+    "model": "grok-2-1212",
+    "messages": [
+        {
             "role": "system",
-            "content": "You are a news analyst with access to web and X data. Your task is to identify and rank the top 10 news events from the past 24 hours (from 11:18 PM EST March 1, 2025, to 11:18 PM EST March 2, 2025). For each event, provide a title, brief summary, source (if available), and timestamp. Return the results in JSON format with fields: rank, title, summary, source, url (if known), and timestamp. Ensure the response is structured and concise."
-            },
-            {
+            "content": "You are a news analyst with access to web and X data. Your task is to identify and rank the top 10 news events from the past 24 hours (from 11:18 PM EST March 1, 2025, to 11:18 PM EST March 2, 2025). For each event, provide a title, brief summary, source (if available), and timestamp. Return the results as a raw, valid JSON object with an array of events under a 'results' key, each with fields: rank, title, summary, source, url (if known), and timestamp. Ensure the response is structured, concise, and contains only valid JSON—no Markdown, no code blocks (e.g., ```json), no extra newlines, and no additional text outside the JSON object."
+        },
+        {
             "role": "user",
             "content": "Give me the top 10 news events of the past 24 hours in JSON format."
-            }
-        ],
-        "max_tokens": 1500,
-        "temperature": 0.5
-    }
+        }
+    ],
+    "max_tokens": 1500,
+    "temperature": 0.5
+}
 
     response = requests.post(URL_DEEPSEARCH, headers=HEADERS, data=json.dumps(payload), timeout=30)
     return response.json()

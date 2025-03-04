@@ -1,1 +1,6 @@
-pytz
+requests==2.31.0
+json==2.0.9
+logging==0.5.1
+functools==5.0.0
+wraps==0.1.0
+
