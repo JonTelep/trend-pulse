@@ -13,7 +13,7 @@ load_dotenv()
 
 URL_DEEPSEARCH = "https://api.x.ai/v1/chat/completions"
 HEADERS = {
-    "Authorization": f"Bearer {os.getenv('GROK_API_KEY')}",
+    "Authorization": f"Bearer {os.getenv('XAI_API_KEY')}",
     "Content-Type": "application/json",
     "Accept": "application/json"
 }
@@ -22,10 +22,6 @@ HEADERS = {
 @api_handler(max_retries=0, retry_delay=10.0, timeout=30)
 def get_xai_news():
     """ Get XAI news """
-    # Get current time in EST
-    est = pytz.timezone('America/New_York')
-    end_time = datetime.now(est)
-    start_time = end_time - timedelta(hours=24)
 
     payload = {
         "model": "grok-2-1212",
@@ -41,27 +37,7 @@ def get_xai_news():
         ],
         "max_tokens": 1500,
         "temperature": 0.5
-        }
-    print(HEADERS)
+    }
+
     response = requests.post(URL_DEEPSEARCH, headers=HEADERS, data=json.dumps(payload), timeout=30)
-    print(response)
-    if response.status_code == 200:
-        # Create data directory if it doesn't exist
-        raw_content = response.json()["choices"][0]["message"]["content"]
-        news_data = json.loads(raw_content)
-        print(news_data)
-        data_dir = pathlib.Path("data")
-        data_dir.mkdir(exist_ok=True)
-        
-        # Format filename with current timestamp
-        filename = f"top_10_news_{end_time.strftime('%Y%m%d_%H%M%S')}.json"
-        filepath = data_dir / filename
-        
-        # Write response to file
-        with open(filepath, 'w', encoding='utf-8') as f:
-            json.dump(response.json(), f, indent=2)
-            
-        return response.json()
-    else:
-        print(f"Error: {response.status_code} - {response.text}")
-    
+    return response.json()
