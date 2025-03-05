@@ -1,0 +1,84 @@
+{
+  "results": [
+    {
+      "rank": 1,
+      "title": "Historic Peace Agreement Signed Between Two Nations",
+      "summary": "Leaders from Country A and Country B signed a historic peace treaty, ending decades of conflict and opening new avenues for cooperation.",
+      "source": "Global News Network",
+      "url": "https://www.globalnewsnetwork.com/peace-agreement-signed",
+      "timestamp": "2025-03-02T10:30:00Z"
+    },
+    {
+      "rank": 2,
+      "title": "Breakthrough in Cancer Research Announced",
+      "summary": "A major medical research institute announced a significant breakthrough in cancer treatment, potentially revolutionizing patient outcomes.",
+      "source": "Medical Research Today",
+      "url": "https://www.medicalresearchtoday.com/cancer-breakthrough",
+      "timestamp": "2025-03-02T09:45:00Z"
+    },
+    {
+      "rank": 3,
+      "title": "Severe Earthquake Strikes Region, Causing Widespread Damage",
+      "summary": "A 7.2 magnitude earthquake hit the coastal region of Country C, leading to significant damage and loss of life.",
+      "source": "Emergency Response Network",
+      "url": "https://www.emergencyresponsenetwork.com/earthquake-strikes",
+      "timestamp": "2025-03-02T08:15:00Z"
+    },
+    {
+      "rank": 4,
+      "title": "Global Leaders Gather for Climate Summit",
+      "summary": "World leaders convened for the annual climate summit, discussing urgent measures to combat global warming.",
+      "source": "Climate Action News",
+      "url": "https://www.climateactionnews.com/leaders-gather-climate-summit",
+      "timestamp": "2025-03-02T07:30:00Z"
+    },
+    {
+      "rank": 5,
+      "title": "Tech Giant Announces Major Layoffs",
+      "summary": "A leading technology company announced it will lay off 10% of its workforce amid restructuring efforts.",
+      "source": "Tech Insider",
+      "url": "https://www.techinsider.com/tech-giant-layoffs",
+      "timestamp": "2025-03-02T06:45:00Z"
+    },
+    {
+      "rank": 6,
+      "title": "New Space Mission Launches Successfully",
+      "summary": "A new space mission aimed at exploring distant planets was launched successfully from Spaceport X.",
+      "source": "Space Exploration News",
+      "url": "https://www.spaceexplorationnews.com/new-space-mission-launch",
+      "timestamp": "2025-03-02T05:30:00Z"
+    },
+    {
+      "rank": 7,
+      "title": "Cyberattack Disrupts Major Financial Institution",
+      "summary": "A major bank reported a significant cyberattack, disrupting services and affecting millions of customers.",
+      "source": "Financial Security Watch",
+      "url": "https://www.financialsecuritywatch.com/cyberattack-disrupts-bank",
+      "timestamp": "2025-03-02T04:45:00Z"
+    },
+    {
+      "rank": 8,
+      "title": "Record-breaking Heatwave Sweeps Across Continent",
+      "summary": "A severe heatwave set new temperature records across the continent, prompting health warnings and power outages.",
+      "source": "Weather Watch",
+      "url": "https://www.weatherwatch.com/record-breaking-heatwave",
+      "timestamp": "2025-03-02T03:30:00Z"
+    },
+    {
+      "rank": 9,
+      "title": "Celebrity Announces Retirement from Entertainment Industry",
+      "summary": "A beloved actor announced their retirement from the entertainment industry after a decades-long career.",
+      "source": "Entertainment Tonight",
+      "url": "https://www.entertainmenttonight.com/celebrity-retirement",
+      "timestamp": "2025-03-02T02:45:00Z"
+    },
+    {
+      "rank": 10,
+      "title": "New Economic Policy Unveiled by Government",
+      "summary": "The government unveiled a new economic policy aimed at boosting growth and reducing unemployment.",
+      "source": "Economic Times",
+      "url": "https://www.economictimes.com/new-economic-policy",
+      "timestamp": "2025-03-02T01:30:00Z"
+    }
+  ]
+}

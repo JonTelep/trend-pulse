@@ -1,0 +1,29 @@
+{
+  "id": "38863a0e-5729-4639-ae75-9f6108da2cac",
+  "object": "chat.completion",
+  "created": 1741142438,
+  "model": "grok-2-1212",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"results\": [\n    {\n      \"rank\": 1,\n      \"title\": \"Historic Peace Agreement Signed Between Two Nations\",\n      \"summary\": \"Leaders from Country A and Country B signed a historic peace treaty, ending decades of conflict and opening new avenues for cooperation.\",\n      \"source\": \"Global News Network\",\n      \"url\": \"https://www.globalnewsnetwork.com/peace-agreement-signed\",\n      \"timestamp\": \"2025-03-02T10:30:00Z\"\n    },\n    {\n      \"rank\": 2,\n      \"title\": \"Breakthrough in Cancer Research Announced\",\n      \"summary\": \"A major medical research institute announced a significant breakthrough in cancer treatment, potentially revolutionizing patient outcomes.\",\n      \"source\": \"Medical Research Today\",\n      \"url\": \"https://www.medicalresearchtoday.com/cancer-breakthrough\",\n      \"timestamp\": \"2025-03-02T09:45:00Z\"\n    },\n    {\n      \"rank\": 3,\n      \"title\": \"Severe Earthquake Strikes Region, Causing Widespread Damage\",\n      \"summary\": \"A 7.2 magnitude earthquake hit the coastal region of Country C, leading to significant damage and loss of life.\",\n      \"source\": \"Emergency Response Network\",\n      \"url\": \"https://www.emergencyresponsenetwork.com/earthquake-strikes\",\n      \"timestamp\": \"2025-03-02T08:15:00Z\"\n    },\n    {\n      \"rank\": 4,\n      \"title\": \"Global Leaders Gather for Climate Summit\",\n      \"summary\": \"World leaders convened for the annual climate summit, discussing urgent measures to combat global warming.\",\n      \"source\": \"Climate Action News\",\n      \"url\": \"https://www.climateactionnews.com/leaders-gather-climate-summit\",\n      \"timestamp\": \"2025-03-02T07:30:00Z\"\n    },\n    {\n      \"rank\": 5,\n      \"title\": \"Tech Giant Announces Major Layoffs\",\n      \"summary\": \"A leading technology company announced it will lay off 10% of its workforce amid restructuring efforts.\",\n      \"source\": \"Tech Insider\",\n      \"url\": \"https://www.techinsider.com/tech-giant-layoffs\",\n      \"timestamp\": \"2025-03-02T06:45:00Z\"\n    },\n    {\n      \"rank\": 6,\n      \"title\": \"New Space Mission Launches Successfully\",\n      \"summary\": \"A new space mission aimed at exploring distant planets was launched successfully from Spaceport X.\",\n      \"source\": \"Space Exploration News\",\n      \"url\": \"https://www.spaceexplorationnews.com/new-space-mission-launch\",\n      \"timestamp\": \"2025-03-02T05:30:00Z\"\n    },\n    {\n      \"rank\": 7,\n      \"title\": \"Cyberattack Disrupts Major Financial Institution\",\n      \"summary\": \"A major bank reported a significant cyberattack, disrupting services and affecting millions of customers.\",\n      \"source\": \"Financial Security Watch\",\n      \"url\": \"https://www.financialsecuritywatch.com/cyberattack-disrupts-bank\",\n      \"timestamp\": \"2025-03-02T04:45:00Z\"\n    },\n    {\n      \"rank\": 8,\n      \"title\": \"Record-breaking Heatwave Sweeps Across Continent\",\n      \"summary\": \"A severe heatwave set new temperature records across the continent, prompting health warnings and power outages.\",\n      \"source\": \"Weather Watch\",\n      \"url\": \"https://www.weatherwatch.com/record-breaking-heatwave\",\n      \"timestamp\": \"2025-03-02T03:30:00Z\"\n    },\n    {\n      \"rank\": 9,\n      \"title\": \"Celebrity Announces Retirement from Entertainment Industry\",\n      \"summary\": \"A beloved actor announced their retirement from the entertainment industry after a decades-long career.\",\n      \"source\": \"Entertainment Tonight\",\n      \"url\": \"https://www.entertainmenttonight.com/celebrity-retirement\",\n      \"timestamp\": \"2025-03-02T02:45:00Z\"\n    },\n    {\n      \"rank\": 10,\n      \"title\": \"New Economic Policy Unveiled by Government\",\n      \"summary\": \"The government unveiled a new economic policy aimed at boosting growth and reducing unemployment.\",\n      \"source\": \"Economic Times\",\n      \"url\": \"https://www.economictimes.com/new-economic-policy\",\n      \"timestamp\": \"2025-03-02T01:30:00Z\"\n    }\n  ]\n}",
+        "refusal": null
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 204,
+    "completion_tokens": 1034,
+    "total_tokens": 1238,
+    "prompt_tokens_details": {
+      "text_tokens": 204,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "system_fingerprint": "fp_5c0c5bd9d9"
+}

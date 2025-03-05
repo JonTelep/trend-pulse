@@ -17,13 +17,23 @@ def main():
         response = get_xai_news()
         print(response)
         
-        # Create data directory if it doesn't exist
+        # Create data and raw_responses directories if they don't exist
         data_dir = pathlib.Path("data")
+        raw_dir = data_dir / "raw_responses"
         data_dir.mkdir(exist_ok=True)
+        raw_dir.mkdir(exist_ok=True)
         
-        # Format filename with current timestamp
-        filename = f"top_10_news_{end_time.strftime('%Y%m%d_%H%M%S')}.json"
+        # Format filenames with current timestamp
+        timestamp = end_time.strftime('%Y%m%d_%H%M%S')
+        filename = f"top_10_news_{timestamp}.json"
+        raw_filename = f"raw_response_{timestamp}.json"
+        
         filepath = data_dir / filename
+        raw_filepath = raw_dir / raw_filename
+        
+        # Always save the raw response
+        with open(raw_filepath, 'w', encoding='utf-8') as f:
+            json.dump(response, f, indent=2)
         
         if "choices" in response and len(response["choices"]) > 0:
             # Extract the content from the response
